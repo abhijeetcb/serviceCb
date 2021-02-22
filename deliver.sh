@@ -1,1 +1,1 @@
-npm start & sleep
+npm start & sleep 1
