@@ -42,7 +42,7 @@ app.use((req, res, next) => {
   res.status(404).send('Not found');
 });
 
-const server = app.listen(process.env.PORT, () => {
+const server = app.listen(3008, () => {
   logger.info(`Listening to port ${process.env.PORT}`);
 });
 server.timeout = 600000; // 10 minutes
