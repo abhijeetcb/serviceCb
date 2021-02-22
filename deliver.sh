@@ -2,5 +2,5 @@
 set +x
 npm start &
 sleep 10
-echo $! > .pidfile
+echo $! > cat.pidfile
 set +x
