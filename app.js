@@ -43,7 +43,7 @@ app.use((req, res, next) => {
 });
 
 const server = app.listen(3008, () => {
-  logger.info(`Listening to port ${process.env.PORT}`);
+  logger.info(`Listening to port 3008`);
 });
 server.timeout = 600000; // 10 minutes
 
